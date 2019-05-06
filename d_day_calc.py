@@ -1,4 +1,4 @@
-#-*- coding: utf-8 -*-
+#-*-Encoding:euc-kr-*-
 
 from datetime import date
 from datetime import datetime
@@ -25,8 +25,8 @@ b_day = boot_time[4:]
 
 
 
-d0 = date(c_year, c_month, c_day) #date ��ü1
-d1 = date(int(b_year), int(b_month), int(b_day)) #date ��ü2
+d0 = date(c_year, c_month, c_day) #date °´Ã¼1
+d1 = date(int(b_year), int(b_month), int(b_day)) #date °´Ã¼2
 delta = d0 - d1
 print ("uptime is", delta.days)
 
